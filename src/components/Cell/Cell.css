@@ -1,0 +1,7 @@
+.cell{
+    outline: 1px solid #ddd;
+    outline-offset: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+    transition: background .2s
+}

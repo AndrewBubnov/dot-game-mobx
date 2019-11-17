@@ -1,0 +1,9 @@
+.rotated-score{
+    animation: rotate-score .3s
+}
+@keyframes rotate-score {
+    0% {transform: rotate3d(1,0,0, 0deg)}
+    49.9% {transform: rotate3d(1,0,0, 90deg)}
+    50% {transform: rotate3d(1,0,0, 270deg)}
+    to {transform: rotate3d(1,0,0, 360deg)}
+}

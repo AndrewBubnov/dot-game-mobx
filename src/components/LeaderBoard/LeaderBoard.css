@@ -1,0 +1,22 @@
+.leader-board{
+    display: flex;
+    flex-direction: column;
+    order: 4;
+}
+.leader-board-item{
+    width: 300px;
+    height: 50px;
+    background: #808080;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #eeeeee;
+    cursor: pointer;
+}
+.record{
+    text-align: center;
+}
+@media screen and (max-width: 380px) {
+    .leader-board {
+        margin-top: 20px;
+    }
+}
